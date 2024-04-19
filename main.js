@@ -5,7 +5,7 @@ form.addEventListener("submit", async (e) => {
   const data = Object.fromEntries(formData.entries());
 
   const response = await fetch(
-    "https://www.facebook_backend.hadrien-janssens.com/submitContact.php",
+    "https://www.facebook-backend.hadrien-janssens.com/submitContact.php",
     {
       method: "POST",
       headers: {
